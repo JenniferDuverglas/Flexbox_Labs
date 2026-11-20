@@ -31,3 +31,11 @@ header, footer{
     align-items: stretch;
     justify-content: center;
 }
+
+.nav,aside{
+    flex:1;
+}
+
+.main{
+    flex:3;
+}
