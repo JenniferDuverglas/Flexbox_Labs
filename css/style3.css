@@ -23,6 +23,10 @@
 
 header, footer{
     flex:0 0 150px;
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .center{
@@ -41,3 +45,16 @@ nav,aside{
 main{
     flex:3;
 }
+.icon{
+    /* if you want it not to scroll with the page, use position fixed */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.icon2{
+    /* if you want it to scroll with the page, use position absolute */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
